@@ -1,0 +1,10 @@
+<table class="table table-hover">
+    <tr style="color: white;" *ngFor="let pd of serviceCrudC.list">
+        <!-- <td>
+            <i class="fas fa-user fa-lg text-warning" (click)="viewPanelsC.emit(pd.Id)"></i>
+        </td> -->
+        <td>{{pd.Id}}</td>
+        <td>{{pd.UserId}}</td>
+        <td>{{pd.Title}}</td>
+    </tr>
+</table>
